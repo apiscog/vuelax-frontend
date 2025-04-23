@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Globe } from "lucide-react";
-import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
       <header className="border-b border-zinc-800 bg-black">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <div className="flex items-center gap-2">
-            <svg className="h-6 w-6 text-white" viewBox="0 -4.15 57.875 57.875" xmlns="http://www.w3.org/2000/svg" fill="#000000" transform="matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Group_37" data-name="Group 37" transform="translate(-1209.722 -1357.465)"> <path id="Path_95" data-name="Path 95" d="M1224.729,1387.963v16.4l26.032-28.734Z" fill="#d1d3d4" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"></path> <path id="Path_96" data-name="Path 96" d="M1228.118,1390.522l37.479-30.686-17.1,45.207Z" fill="#ffffff" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"></path> <path id="Path_97" data-name="Path 97" d="M1211.722,1378.673l16.4,11.712,37.479-30.92Z" fill="#ffffff" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"></path> </g> </g></svg>
+            <svg className="h-6 w-6 text-white" viewBox="0 -4.15 57.875 57.875" xmlns="http://www.w3.org/2000/svg" fill="#000000" transform="matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Group_37" data-name="Group 37" transform="translate(-1209.722 -1357.465)"> <path id="Path_95" data-name="Path 95" d="M1224.729,1387.963v16.4l26.032-28.734Z" fill="#d1d3d4" stroke="#231f20" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4"></path> <path id="Path_96" data-name="Path 96" d="M1228.118,1390.522l37.479-30.686-17.1,45.207Z" fill="#ffffff" stroke="#231f20" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4"></path> <path id="Path_97" data-name="Path 97" d="M1211.722,1378.673l16.4,11.712,37.479-30.92Z" fill="#ffffff" stroke="#231f20" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4"></path> </g> </g></svg>
             <span className="text-xl font-bold text-white">Vuelax</span>
           </div>
           <nav className="hidden space-x-6 md:flex">
